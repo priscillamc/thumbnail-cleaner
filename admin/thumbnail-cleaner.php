@@ -60,7 +60,7 @@
                }
             }
             elseif($action === "analyze") {
-               $analyze_output = $thumbnail_cleaner->analyze(array("before_date" => "2013-01-01"));
+               $analyze_output = $thumbnail_cleaner->analyze();
             }
             elseif($action === "clean_thumbnails") {
                $cleaned_thumbnails = $thumbnail_cleaner->clean_thumbnails();

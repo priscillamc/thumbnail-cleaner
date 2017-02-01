@@ -169,7 +169,7 @@
          $query = array(
             "post_type"      => "attachment",
             "post_mime_type" => "image/jpeg",
-            "showposts"      => -1
+            "numberposts"      => -1
          );
 
          if($options["before_date"]) {
