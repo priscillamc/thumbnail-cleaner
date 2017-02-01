@@ -1,0 +1,74 @@
+.thumbnail-cleaner {
+   width: 85%;
+}
+
+.thumbnail-cleaner i {
+   margin-right: 5px;
+}
+
+.thumbnail-cleaner .box-container {
+   background:         #fff;
+   border:             1px solid #e5e5e5;
+   box-shadow:         0 1px 1px rgba(0, 0, 0, .04);
+   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+   margin-bottom:      40px;
+   margin-top:         25px;
+}
+
+.thumbnail-cleaner .box-container .box-title-container {
+   border-bottom: 1px solid #eee;
+   padding:       15px 20px;
+}
+
+.thumbnail-cleaner .box-container .box-title-container .box-title {
+   display: inline-block;
+   margin:  0;
+}
+
+.thumbnail-cleaner .box-container .box-title-container .toggler {
+   cursor:   pointer;
+   float:    right;
+   position: relative;
+   top:      5px;
+}
+
+.thumbnail-cleaner .box-container .box-content {
+   padding: 5px 20px;
+}
+
+.thumbnail-cleaner .box-container .box-content p {
+   color:       #72777c;
+   font-size:   16px;
+   line-height: 1.5em;
+}
+
+.thumbnail-cleaner .button,
+.thumbnail-cleaner .button-primary {
+   margin-right: 5px;
+}
+
+.thumbnail-cleaner .intro {
+   margin-bottom: 30px;
+}
+
+.thumbnail-cleaner .analysis-results {
+   margin-bottom: 40px;
+}
+
+.thumbnail-cleaner .analysis-results thead td {
+   font-weight: bold;
+}
+
+.thumbnail-cleaner #clean-thumbnails {
+   margin-bottom: 10px;
+}
+
+.thumbnail-cleaner .last-backup {
+   font-size: 12px;
+}
+
+.thumbnail-cleaner .report-bug {
+   color:      #777;
+   font-size:  12px;
+   margin-top: 30px;
+}

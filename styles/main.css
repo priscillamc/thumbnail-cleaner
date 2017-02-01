@@ -1,0 +1,24 @@
+.thumbnail-cleaner {
+	width: 75%;
+}
+
+.thumbnail-cleaner i {
+	margin-right: 5px;
+}
+
+.thumbnail-cleaner .button,
+.thumbnail-cleaner .button-primary {
+	margin-right: 5px;
+}
+
+.thumbnail-cleaner .intro {
+	margin-bottom: 30px;
+}
+
+.thumbnail-cleaner .last-backup {
+	font-size: 12px;
+}
+
+.thumbnail-cleaner .analyze-output {
+	color: #5b9c2b;
+}

@@ -1,0 +1,246 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Thumbnail Cleaner\n"
+"POT-Creation-Date: 2016-06-20 23:01+0100\n"
+"PO-Revision-Date: 2016-01-17 00:02+0100\n"
+"Last-Translator: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"Language-Team: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: thumbnail-cleaner.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/thumbnail-cleaner.php:47
+#, php-format
+msgid ""
+"The backup <strong>%s</strong> has been successfully created in <code>wp-"
+"content/backups/thumbnail-cleaner/</code>. <a href=\"%s\">Click here</a> to "
+"download the archive."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:59
+#, php-format
+msgid "All <strong>%s backups</strong> have been successfully deleted."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:69
+msgid "Thumbnail Cleaner found and deleted <strong>1 thumbnail</strong>."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:69
+#, php-format
+msgid "Thumbnail Cleaner found and deleted <strong>%s thumbnails</strong>."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:72
+#, php-format
+msgid ""
+"No thumbnails found or thumbnails could not be deleted. Please see the <a "
+"href=\"%s\" target=\"_blank\">FAQ</a> for a list of possible causes and how "
+"to fix them."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:78
+#, php-format
+msgid "The backup <strong>%s</strong> has been successfully restored."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:109
+msgid "How it works"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:115
+msgid ""
+"Welcome to <strong>Thumbnail Cleaner</strong>. This plugin will clean up "
+"your WordPress installation by removing and regenerating thumbnails from "
+"your web server while keeping the original uploaded images. To make sure you "
+"don't lose any data, please hit the <em>Backup Now</em> button before you "
+"start."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:127
+msgid "Original Files"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:130
+msgid "Thumbnail Files"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:133
+msgid "Total File Size"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:144 admin/thumbnail-cleaner.php:164
+#, php-format
+msgid "%s file"
+msgid_plural "%s files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/thumbnail-cleaner.php:198
+msgid "Backup"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:207
+msgid "Backup Now"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:222
+msgid ""
+"There is currently no backup of your uploads directory. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:227
+msgid "Last backup"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:229
+msgid ""
+"Creates a zipped archive of your <code>uploads</code> directory and saves it "
+"in <code>wp-content/backups/thumbnail-cleaner/</code> (recommended)."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:234
+msgid ""
+"The Zip PHP extension is not activated on your server. Backups are not "
+"possible unless you contact your server provider and ask them to enable this "
+"feature."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:243
+msgid "Analyze"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:249
+msgid "Start Analyzing"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:251
+msgid ""
+"Scans your <code>uploads</code> directory for thumbnails and returns the "
+"total amount without deleting any files. "
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:258
+msgid "Clean Thumbnails"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:266
+#, php-format
+msgid "Delete %s Thumbnail(s)"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:269
+msgid "Delete Thumbnails"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:276
+msgid "Clean all thumbnails"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:282
+msgid "Only clean thumbnails older than"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:286
+msgid ""
+"Deletes <strong>all</strong> thumbnails within your <code>uploads</code> "
+"directory. <strong>Note:</strong> Unless you have created a backup, this "
+"<strong>cannot</strong> be reversed."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:293
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:318
+msgid "Regenerate Now"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:322
+#, php-format
+msgid ""
+"The plugin <strong>Regenerate Thumbnails</strong> is inactive. Please <a "
+"href=\"%s\" target=\"_blank\">enable</a>."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:325
+#, php-format
+msgid ""
+"The plugin <strong>Regenerate Thumbnails</strong> is not installed. Please "
+"<a href=\"%s\" target=\"_blank\">download</a>."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:329
+#, php-format
+msgid ""
+"Recreates thumbnails for uploaded images. Check your <a href=\"%s\" target="
+"\"_blank\">Media</a> page to change the resolution of the thumbnails."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:337
+msgid "Restore Backup"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:346
+msgid "Select backup to restore:"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:360
+msgid "Restore"
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:363
+msgid ""
+"Replaces your <code>uploads</code> directory with a previously backed up "
+"version."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:367
+msgid "No backups found."
+msgstr ""
+
+#: admin/thumbnail-cleaner.php:375
+#, php-format
+msgid ""
+"Found an error? Help making Thumbnail Cleaner better by <a href=\"%s\" title="
+"\"Click here to report a bug\" target=\"_blank\">quickly reporting the bug</"
+"a>."
+msgstr ""
+
+#: includes/functions.php:51
+msgid "Never"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Thumbnail Cleaner"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.koljanolte.com/wordpress/plugins/thumbnail-cleaner/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Cleans up your WordPress installation by removing and regenerating "
+"thumbnails."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kolja Nolte"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.koljanolte.com"
+msgstr ""

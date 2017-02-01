@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thumbnail Cleaner\n"
+"POT-Creation-Date: 2015-07-24 02:13+0700\n"
+"PO-Revision-Date: 2015-07-24 02:13+0700\n"
+"Last-Translator: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"Language-Team: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/functions.php:51
+msgid "Never"
+msgstr ""
+
+#: includes/menu-page.php:47
+#, php-format
+msgid ""
+"The backup <strong>%s</strong> has been successfully created in <code>wp-"
+"content/backups/thumbnail-cleaner/</code>. <a href=\"%s\">Click here</a> to "
+"download the archive."
+msgstr ""
+
+#: includes/menu-page.php:59
+#, php-format
+msgid "All <strong>%s backups</strong> have been successfully deleted."
+msgstr ""
+
+#: includes/menu-page.php:66
+msgid ""
+"Your <code>uploads</code> directory has been successfully analyzed. See the "
+"report below."
+msgstr ""
+
+#: includes/menu-page.php:74
+msgid "Thumbnail Cleaner found and deleted <strong>1 thumbnail</strong>."
+msgstr ""
+
+#: includes/menu-page.php:74
+#, php-format
+msgid "Thumbnail Cleaner found and deleted <strong>%s thumbnails</strong>."
+msgstr ""
+
+#: includes/menu-page.php:77
+#, php-format
+msgid ""
+"No thumbnails found or thumbnails could not be deleted. Please see the <a "
+"href=\"%s\" target=\"_blank\">FAQ</a> for a list of possible causes and how "
+"to fix them."
+msgstr ""
+
+#: includes/menu-page.php:86
+#, php-format
+msgid "The backup <strong>%s</strong> has been successfully restored."
+msgstr ""
+
+#: includes/menu-page.php:114
+msgid ""
+"Welcome to <strong>Thumbnail Cleaner</strong>. This plugin will clean up "
+"your WordPress installation by removing and regenerating thumbnails from "
+"your webserver while keeping the original uploaded images."
+msgstr ""
+
+#: includes/menu-page.php:115
+msgid ""
+"<strong>Important:</strong> To make sure you don't lose any data, please hit "
+"the \"Backup Now\" button. A zipped archive of your entire <code>uploads</"
+"code> directory will then be saved into <code>wp-content/backups/thumbnail-"
+"cleaner/</code> from where you can restore the previous version at any time."
+msgstr ""
+
+#: includes/menu-page.php:116
+#, php-format
+msgid ""
+"For further information, please see the <a href=\"%s\" target=\"_blank"
+"\">official documentation</a>."
+msgstr ""
+
+#: includes/menu-page.php:122
+msgid "Backup"
+msgstr ""
+
+#: includes/menu-page.php:130
+msgid "Backup Now"
+msgstr ""
+
+#: includes/menu-page.php:145
+msgid ""
+"There is currently no backup of your uploads directory. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: includes/menu-page.php:148
+msgid "Delete 1 Backup"
+msgstr ""
+
+#: includes/menu-page.php:150
+msgid "Last backup"
+msgstr ""
+
+#: includes/menu-page.php:152
+msgid ""
+"Creates a zipped archive of your <code>uploads</code> directory and saves it "
+"in <code>wp-content/backups/thumbnail-cleaner/</code> (recommended)."
+msgstr ""
+
+#: includes/menu-page.php:157
+msgid ""
+"The Zip PHP extension is not activated on your server. Backups are not "
+"possible unless you contact your server provider and ask them to enable this "
+"feature."
+msgstr ""
+
+#: includes/menu-page.php:164
+msgid "Analyze"
+msgstr ""
+
+#: includes/menu-page.php:169
+msgid "Start Analyzing"
+msgstr ""
+
+#: includes/menu-page.php:171
+msgid ""
+"Scans your <code>uploads</code> directory for thumbnails and returns the "
+"total amount without deleting any files. "
+msgstr ""
+
+#: includes/menu-page.php:176
+msgid "Found:"
+msgstr ""
+
+#: includes/menu-page.php:177
+#, php-format
+msgid "%s original image(s) and %s thumbnail(s)."
+msgstr ""
+
+#: includes/menu-page.php:186
+msgid "Clean Thumbnails"
+msgstr ""
+
+#: includes/menu-page.php:193
+#, php-format
+msgid "Delete %s Thumbnail(s)"
+msgstr ""
+
+#: includes/menu-page.php:196
+msgid "Delete Thumbnails"
+msgstr ""
+
+#: includes/menu-page.php:200
+msgid ""
+"Deletes <strong>all</strong> thumbnails within your <code>uploads</code> "
+"directory. <strong>Note:</strong> Unless you have created a backup, this "
+"<strong>cannot</strong> be reversed."
+msgstr ""
+
+#: includes/menu-page.php:205
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: includes/menu-page.php:231
+msgid "Regenerate Now"
+msgstr ""
+
+#: includes/menu-page.php:235
+#, php-format
+msgid ""
+"The plugin <strong>Regenerate Thumbnails</strong> is inactive. Please <a "
+"href=\"%s\" target=\"_blank\">enable</a>."
+msgstr ""
+
+#: includes/menu-page.php:238
+#, php-format
+msgid ""
+"The plugin <strong>Regenerate Thumbnails</strong> is not installed. Please "
+"<a href=\"%s\" target=\"_blank\">download</a>."
+msgstr ""
+
+#: includes/menu-page.php:242
+#, php-format
+msgid ""
+"Recreates thumbnails for uploaded images. Check your <a href=\"%s\" target="
+"\"_blank\">Media</a> page to change the resolution of the thumbnails."
+msgstr ""
+
+#: includes/menu-page.php:248
+msgid "Restore Backup"
+msgstr ""
+
+#: includes/menu-page.php:256
+msgid "Select backup to restore:"
+msgstr ""
+
+#: includes/menu-page.php:270
+msgid "Restore"
+msgstr ""
+
+#: includes/menu-page.php:273
+msgid ""
+"Replaces your <code>uploads</code> directory with a previously backed up "
+"version."
+msgstr ""
+
+#: includes/menu-page.php:277
+msgid "No backups found."
+msgstr ""
