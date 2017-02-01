@@ -191,7 +191,7 @@
             }
          ?>
          <table class="form-table">
-            <tr>
+            <?php /*?><tr>
                <th>
                   <label for="backup">
                      <i class="fa fa-life-ring"></i>
@@ -235,7 +235,7 @@
                      }
                   ?>
                </td>
-            </tr>
+            </tr><?php */?>
             <tr>
                <th>
                   <label for="analyze">
@@ -330,7 +330,7 @@
                   </p>
                </td>
             </tr>
-            <tr>
+            <?php /*?><tr>
                <th>
                   <label for="restore">
                      <i class="fa fa-hdd-o"></i>
@@ -368,7 +368,7 @@
                      }
                   ?>
                </td>
-            </tr>
+            </tr><?php */?>
          </table>
          <div class="report-bug">
             <i class="fa fa-bug"></i>
