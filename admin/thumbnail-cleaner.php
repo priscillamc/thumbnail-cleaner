@@ -191,7 +191,7 @@
             }
          ?>
          <table class="form-table">
-            <tr>
+            <?php /*?><tr>
                <th>
                   <label for="backup">
                      <i class="fa fa-life-ring"></i>
@@ -235,7 +235,7 @@
                      }
                   ?>
                </td>
-            </tr>
+            </tr><?php */?>
             <tr>
                <th>
                   <label for="analyze">
@@ -276,13 +276,13 @@
                         <?php _e("Clean all thumbnails", "thumbnail_cleaner"); ?>
                      </label>
                   </p>
-                  <p>
+                  <?php /* Deletes non-working date option ?><p>
                      <input name="clean_thumbnails_rule" type="radio" id="thumbnails-date-radio">
                      <label for="thumbnails-date-radio">
                         <?php _e("Only clean thumbnails older than", "thumbnail_cleaner"); ?>
                      </label>
                      <input type="date" id="thumbnails-date">
-                  </p>
+                  </p><?php */?>
                   <p class="description"><?php _e("Deletes <strong>all</strong> thumbnails within your <code>uploads</code> directory. <strong>Note:</strong> Unless you have created a backup, this <strong>cannot</strong> be reversed.", "thumbnail_cleaner"); ?></p>
                </td>
             </tr>
@@ -330,7 +330,7 @@
                   </p>
                </td>
             </tr>
-            <tr>
+            <?php /*?><tr>
                <th>
                   <label for="restore">
                      <i class="fa fa-hdd-o"></i>
@@ -368,7 +368,7 @@
                      }
                   ?>
                </td>
-            </tr>
+            </tr><?php */?>
          </table>
          <div class="report-bug">
             <i class="fa fa-bug"></i>
